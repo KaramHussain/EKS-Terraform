@@ -1,7 +1,7 @@
 # Terraform EKS and VPC Setup
 
 ## Overview
-
+![eks-architect diagram](image.png)
 This Terraform codebase provisions an Amazon Web Services (AWS) Elastic Kubernetes Service (EKS) cluster along with a custom Virtual Private Cloud (VPC) network. The setup includes the creation of a VPC, public and private subnets, an internet gateway, a NAT gateway, and an EKS cluster with managed node groups. The infrastructure is designed to be production-ready with scalability and high availability in mind.
 
 ### Key Components
